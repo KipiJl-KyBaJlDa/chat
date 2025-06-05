@@ -1,0 +1,28 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "nodemon server"										
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KipiJl-KyBaJlDa/chat.git"
+  },
+  "author": "Kiril",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KipiJl-KyBaJlDa/chat/issues"
+  },
+  "homepage": "https://github.com/KipiJl-KyBaJlDa/chat#readme",
+  "dependencies": {
+    "socket.io": "^4.8.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
